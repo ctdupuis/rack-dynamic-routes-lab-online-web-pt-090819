@@ -8,7 +8,7 @@ class Application
       item = req.path.split("/items/").last
       item
     else
-      return 404
+      resp.write 404
       resp.status = 404
     end
   end
