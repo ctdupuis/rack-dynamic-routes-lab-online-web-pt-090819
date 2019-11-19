@@ -9,7 +9,7 @@ class Application
       item
     else
       return 404
-      resp.status = 400
+      resp.status = 404
     end
   end
 end
